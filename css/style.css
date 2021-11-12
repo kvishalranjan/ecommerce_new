@@ -17,4 +17,16 @@
 {
     position: relative;
     margin-left: -30px;
+    padding-left: 15px;
+}
+
+a
+{
+    text-transform: uppercase;
+
+}
+
+.modal-backdrop
+{
+    display: none;
 }
