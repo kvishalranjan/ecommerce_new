@@ -216,299 +216,72 @@ ml-1">SIGN UP</button>
     </div>
     </div>
   </header>
-  <div class="container-fluid">
-    <div class="row">
-      <!-- column 1 -->
-      <div class="col-lg-4">
-        <aside class="col-lg-12">
-          <!-- Sidebar-->
-          <div class="offcanvas-body py-2 px-2">
-            <!-- Categories-->
-            <div class="mb-4 pb-4 border-bottom">
-              <h3>Categories</h3>
-              <div class="accordion mt-n1" id="shop-categories">
-                <!-- Clothing starts-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#clothing" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="clothing">Clothing</a></h3>
-                  <div class="accordion-collapse collapse" id="clothing" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <ul>
-                        <li><a href="#">T-Shirts</a></li>
-                        <li><a href="#">Casual
-                            Shirts</a></li>
-                        <li><a href="#">Formal
-                            Shirts</a></li>
-                        <li><a href="#">Blazers and
-                            Jackets</a></li>
-                        <li><a href="#">Trousers</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--clothing ends-->
-                <!-- Select by Brand starts-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_brand" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_brand">Select by
-                      Brand</a></h3>
-                  <div class="accordion-collapse collapse" id="men_brand" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <div class="form-check">
-                        <!--louie phillippe starts-->
-                        <input class="form-check-input" type="checkbox" value="" id="men_louie">
-                        <label class="form-check-label" for="men_louie">
-                          Louie Philippe
-                        </label>
-                      </div>
-                      <!--louie phillippe ends-->
-                      <!--allen solly starts-->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_allen">
-                        <label class="form-check-label" for="men_allen">
-                          Allen Solly
-                        </label>
-                      </div>
-                      <!--allen solly ends-->
-                      <!-- peter england starts -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_peter">
-                        <label class="form-check-label" for="men_peter">
-                          Peter England
-                        </label>
-                      </div>
-                      <!-- peter england ends -->
-                      <!-- blackberry starts -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_blackberry">
-                        <label class="form-check-label" for="men_blackberry">
-                          BlackBerry
-                        </label>
-                      </div>
-                      <!-- blackberry ends -->
-                    </div>
-                  </div>
-                </div>
-                <!-- Select by Brand ends-->
-                <!-- Select by Size starts-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_size" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_size">Select by
-                      Size</a></h3>
-                  <div class="accordion-collapse collapse" id="men_size" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <!-- xs starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="xs" value="xs">
-                        <label class="form-check-label" for="xs">XS</label>
-                      </div>
-                      <!-- xs ends -->
-                      <!-- small starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="s" value="s">
-                        <label class="form-check-label" for="s">S</label>
-                      </div>
-                      <!-- small ends -->
-                      <!-- medium starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="m" value="m">
-                        <label class="form-check-label" for="m">M</label>
-                      </div>
-                      <!-- medium ends -->
-                    </div>
-                  </div>
-                </div>
-                <!-- Select by Size ends-->
-                <!-- Chose Price Range starts-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_price" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_price">Chose a
-                      Range</a></h3>
-                  <div class="accordion-collapse collapse" id="men_price" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <label for="priceRange" class="form-label">Select range</label>
-                      <input type="range" class="form-range" min="0" max="5" id="priceRange">
-                    </div>
-                  </div>
-                </div>
-                <!-- Chose Price Range ends-->
-                <!-- Select by color starts -->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_color" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_color">Pick a
-                      Color</a></h3>
-                  <div class="accordion-collapse collapse" id="men_color" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_green">
-                        <label class="form-check-label" for="men_green">
-                          <div style="height:10px;width:10px;background-color: green;"></div>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Select by color ends -->
-                <!-- Select by Brand starts-->
-                <div class="accordion-item">
-                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_accessories" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_accessories">Men Accessories</a></h3>
-                  <div class="accordion-collapse collapse" id="men_accessories" data-bs-parent="#shop-categories">
-                    <div class="accordion-body">
-                      <div class="form-check">
-                        <!--louie phillippe starts-->
-                        <input class="form-check-input" type="checkbox" value="" id="men_watch">
-                        <label class="form-check-label" for="men_watch">
-                          Watch
-                        </label>
-                      </div>
-                      <!--louie phillippe ends-->
-                      <!--allen solly starts-->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_belt">
-                        <label class="form-check-label" for="men_belt">
-                          Belt
-                        </label>
-                      </div>
-                      <!--allen solly ends-->
-                      <!-- peter england starts -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_wallet">
-                        <label class="form-check-label" for="men_wallet">
-                          Wallet
-                        </label>
-                      </div>
-                      <!-- peter england ends -->
-                      <!-- blackberry starts -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="men_hk">
-                        <label class="form-check-label" for="men_hk">
-                          Handkerchief
-                        </label>
-                      </div>
-                      <!-- blackberry ends -->
-                    </div>
-                  </div>
-                </div>
-                <!-- Select by Brand ends-->
+ 
+         <!-- product details starts -->
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-lg-6 col-md-6">
+               <div class="col-md-6 col-sm-2">
+                 <img class="img_dt1" src="">
+                 <img class="img_dt2" src="">
+               </div>
+               <div class="col-md-6">
+                <img class="img_dt1" src="">
+                <img class="img_dt2" src="">
               </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-      <!-- column 2-->
-      <div class="col-lg-8 d-flex flex-row flex-wrap">
-        <div class="col-md-3 col-sm-6">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#">
-                <img class="pic-1" src="images/img1.jpg">
-                <!-- <a 
-  href='https://www.freepik.com/photos/business'>Business photo created by 
-  sergeycauselove - www.freepik.com</a> -->
-                <img class="pic-2" src="images/img2.jpg">
-                <!-- <a 
-  href='https://www.freepik.com/photos/business'>Business photo created by 
-  sergeycauselove - www.freepik.com</a> -->
-              </a>
-              <span class="product-trend-label">Trend</span>
-              <ul class="social">
-                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa 
-  fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa 
-  fa-random"></i></a></li>
-                <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-              </ul>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Men's Blazer</a></h3>
-              <div class="price">&#x20B9;2100</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#">
-                <img class="pic-1" src="images/img1.jpg">
-                <img class="pic-2" src="images/img2.jpg">
-              </a>
-              <span class="product-trend-label">Trend</span>
-              <span class="product-discount-label">-30%</span>
-              <ul class="social">
-                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa 
-  fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa 
-  fa-random"></i></a></li>
-                <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-              </ul>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Blazer</a></h3>
-              <div class="price 
-  discount">&#x20B9;960</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#">
-                <img class="pic-1" src="images/img1.jpg">
-                <img class="pic-2" src="images/img2.jpg">
-              </a>
-              <span class="product-trend-label">Trend</span>
-              <span class="product-discount-label">-20%</span>
-              <ul class="social">
-                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa 
-  fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa 
-  fa-random"></i></a></li>
-                <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-              </ul>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">White Linen
-                  Shirt</a></h3>
-              <div class="price 
-  discount">&#x20B9;1360</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="product-grid">
-            <div class="product-image">
-              <a href="#">
-                <img class="pic-1" src="images/img1.jpg">
-                <img class="pic-2" src="images/img2.jpg">
-              </a>
-              <span class="product-trend-label">Trend</span>
-              <span class="product-discount-label">-10%</span>
-              <ul class="social">
-                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa 
-  fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa 
-  fa-random"></i></a></li>
-                <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-              </ul>
-            </div>
-            <div class="product-content">
-              <h3 class="title"><a href="#">Grey Trouser</a></h3>
-              <div class="price 
-  discount">&#x20B9;1060</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--column2 ends-->
-    </div>
-    <!---row ends-->
-  </div>
-  <!--container- fluid ends-->
+             </div>
+             <!-- column ends -->
+             <!-- column2 starts -->
+             <div class="col-lg-6 col-md-6 d-flex flex-wrap justify-content">
+              <h3 class="prod_desc">BLACK BLAZER</h3>
+              <div class="prod_details">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dicta quo ducimus repellat nihil! Ullam harum, vero dolores consequatur perspiciatis necessitatibus fugit odit, explicabo laborum illo repellendus numquam unde odio!</p>
+                <hr>
+                <p class="price"></p>
+                <p class="rating"></p>
+              </div>
+              <div class="size_chart d-flex flex-row align-items-center">
+                <p>
+                  <span></span> <span>M</span>
+                  <span></span> <span>Xl</span>
+                </p>
+              </div>
+              <div class="btn_prod d-flex flex-row align-items-center">
+                <button type="button" class="btn btn-primary" href="add_cart.html">Add to cart</button>
+                <button type="button" class="btn btn-primary" href="#">wishlist <i class="fa fa-heart"></i></button>
+                <!-- pincode -->
+                <form class="row">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="PINCODE">
+                    <button type="submit" class="btn btn-primary">check</button>
+                  </div>
+                </form>
+              </div>
+              <div class="offers d-flex align-items-start">
+                <h3>Best offer</h3>
+                <p>Price</p>
+                <ul class="offer_details">
+                  <li>Applicable on: Orders above Rs.2500</li>
+                  <li>Coupon Code:Disc380</li>
+                  <li>Coupon Discount:rs.300 off</li>
+                </ul>
+              </div>
+              <!-- offer ends -->
+              <div class="prod_fabric d-flex flex-wrap">
+                <div class="fabric_details">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, delectus omnis velit officiis, quasi assumenda, error cum ratione repellat aliquam sint beatae voluptatum. Laboriosam fuga consequatur aperiam dolorem repudiandae id!</p>
+                </div>
+                <div class="specifications d-flex flex-wrap flex=row">
+                  <p>
+                    <span>Full Sleeve</span>
+                    <span>Regular fit</span>
+                    <span>Casual shirt</span>
+                  </p>
+                </div>
+              </div>
+             </div>
+           </div>
+         </div>
   <!-- footer starts -->
   <footer class="footer bg-dark pt-5">
     <div class="container">

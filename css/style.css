@@ -30,3 +30,113 @@ a
 {
     display: none;
 }
+
+/* footer starts */
+
+.footer
+{
+    background: #587187;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer h3
+{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.footer .links
+{
+    margin-bottom: 30px;
+
+}
+
+.footer .footer_list
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer .footer_list li
+{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer_list li:first-child
+{
+    padding-top: 0;
+}
+
+.footer .footer_list a,.footer .btn-market
+{
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.footer .footer_list a:hover,footer .btn-market:hover
+{
+    color: #9eccf4;
+}
+
+.footer .subscription-form
+{
+    margin-top: 30px;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4;
+}
+
+.footer .subscription-form form input[type=email]
+{
+    border: 0;
+    padding: 4px;
+}
+
+.footer .subscription-form form input[type=submit]
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #428bca;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4;
+}
+
+.footer .subscription-form form input[type=submit]:hover
+{
+    background: #5295ce;
+}
+
+.footer .btn-social
+{
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+.footer .btn-market i
+{
+    padding-right: 12px;
+}
