@@ -5,29 +5,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sample website</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+    integrity="sha512-
+5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE
+/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- <link rel="stylesheet" href="css/women_style.css"> -->
   <script src="/js/script.js"></script>
-
 </head>
 
 <body>
   <header id="header">
-
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_menu"
         aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbar_menu">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -46,15 +43,14 @@
               <a class="dropdown-item" href="#">FORMAL</a>
               <a class="dropdown-item" href="#">SEMI-FORMAL</a>
               <a class="dropdown-item" href="#">CASUALS</a>
-              <a class="dropdown-item" href="#">TRADITION</a>
+              <a class="dropdown-item" href="#">TRADITIONAL</a>
               <a class="dropdown-item" href="#">WESTERN</a>
               <a class="dropdown-item" href="#">ACCESSORIES</a>
               <!-- <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a> -->
+<a class="dropdown-item" href="#">Something else here</a> -->
             </div>
           </li>
           <!-- men dropdown menu ends -->
-
           <!-- women dropdown menu starts -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="women_dropmenu" role="button" data-toggle="dropdown"
@@ -65,15 +61,15 @@
               <a class="dropdown-item" href="#">FORMAL</a>
               <a class="dropdown-item" href="#">SEMI-FORMAL</a>
               <a class="dropdown-item" href="#">CASUALS</a>
-              <a class="dropdown-item" href="#">TRADITION</a>
+              <a class="dropdown-item" href="#">TRADITIONAL</a>
               <a class="dropdown-item" href="#">WESTERN</a>
               <a class="dropdown-item" href="#">ACCESSORIES</a>
               <!-- <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a> -->
+<a class="dropdown-item" href="#">Something else here</a> -->
             </div>
           </li>
           <!-- women dropdown menu ends -->
-          <!-- kid dropdown menu starts -->
+          <!-- kids dropdown menu starts -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="kids_dropmenu" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -81,19 +77,17 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="kids_dropmenu">
               <a class="dropdown-item" href="#">INFANTS</a>
-              <a class="dropdown-item" href="#">TODDLES</a>
+              <a class="dropdown-item" href="#">TODDLERS</a>
               <a class="dropdown-item" href="#">BOYS</a>
               <a class="dropdown-item" href="#">GIRLS</a>
               <!-- <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a> -->
+<a class="dropdown-item" href="#">Something else here</a> -->
             </div>
           </li>
-          <!-- kid dropdown menu ends-->
-
+          <!-- kids dropdown menu ends -->
         </ul>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search_brands/products" aria-label="Search">
-
+        <form class="form-inline mr-auto">
+          <input class="form-control mr-sm-3" type="search" placeholder="Search brands/products" aria-label="Search">
         </form>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -111,53 +105,55 @@
     </nav>
     <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
       <div class="modal-dialog cascading-modal" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <!-- <h5 class="modal-title" id="userModalLabel">Modal title</h5> -->
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-
-          <!-- cascading login/register starts -->
-          <div class="modal-tabs">
-            <!-- nav tabs starts -->
-            <ul class="nav nav-tabs bg-primary" role="tablist">
-              <li class="nav-item">
-                <a href="#" class="nav-link active" data-toggle="tab" role="tab">
-                  <i class="fa fa-user mr-1"></i>
-                  Login
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link active" data-toggle="tab" role="tab">
-                  <i class="fa fa-user mr-1"></i>
-                  Register
-                </a>
-              </li>
-            </ul>
-            <!-- nav tab ends -->
+      </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="userModalLabel">Modal 
+title</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!-- cascading Login/register starts-->
+        <div class="modal-tabs">
+          <!-- nav tabs starts -->
+          <ul class="nav nav-tabs bg-primary" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#login_tab" role="tab">
+                <i class="fa fa-user mr-1"></i>
+                Login
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#" role="tab">
+                <i class="fa fa-user mr-1"></i>
+                Register
+              </a>
+            </li>
+          </ul>
+          <!-- nav tab ends -->
+          <div class="tab-content">
             <!-- tab content for login tab starts -->
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="login_tab" role="tabpanel">
-                <div class="modal-body"></div>
+            <div class="tab-pane fade show active" id="login_tab" role="tabpanel">
+              <div class="modal-body">
                 <!-- login form starts -->
                 <form>
                   <div class="form-group">
-
                     <i class="fa fa-envelope prefix"></i>
-                    <input type="email" class="form-control form-control-sm validate" id="txtemail"
-                      aria-describedby="emailHelp">
-                    <label data-error="Wrong" data-success="Right" for="txtemail">Enter Email</label>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    <input type="email" class="form-control 
+form-control-sm validate" id="txtemail" aria-describedby="emailHelp">
+                    <label data-error="Wrong" data-success="Right" for="txtemail">Enter
+                      Email</label>
+                    <small id="emailHelp" class="form-text 
+text-muted">We'll never share your email
+                      with anyone
                       else.</small>
                   </div>
-
                   <div class="form-group">
                     <i class="fa fa-lock prefix"></i>
-                    <input type="password" class="form-control" id="txtpassword">
-                    <label data-error="Wrong" data-success="Right" for="txtpassword">Enter password</label>
+                    <input type="password" class="form-control form-control-sm validate" id="txtpassword">
+                    <label data-error="Wrong" data-success="Right" for="txtpassword">Enter
+                      Password</label>
                   </div>
                   <div class="custom-control custom-switch">
                     <input type="checkbox" class="custom-control-input" id="customSwitch1">
@@ -166,146 +162,140 @@
                   <div class="text-center mt-2">
                     <button type="submit" class="btn btn-primary ml-1">LOG IN</button>
                   </div>
-
-                </form> <!-- login form ends -->
-              </div>
-              <!-- modal footer starts -->
+                </form><!-- login form ends -->
+              </div> <!-- modal-body ends-->
+              <!-- modal-footer starts -->
               <div class="modal-footer">
-                <p>Not a member.&nbsp;&nbsp;<a href="#">Sign Up</a></p><br>
-                <p><a href="#">Forgot Pssword</a></p>
+                <p>Not a member.&nbsp;&nbsp;<a href="#">Sign
+                    Up</a></p><br>
+                <p><a href="#">Forgot Password</a></p>
                 <button type="button" class="btn btn-primary ml-auto" data-dismiss="modal">CLOSE</button>
-              </div>
-              <!-- modal footer ends -->
-            </div>
-            <!--tab-content for register tab starts-->
+              </div><!-- modal footer ends -->
+            </div> <!-- tab content for login tab ends -->
+            <!-- tab content for register tab starts -->
             <div class="tab-pane fade" id="register_tab" role="tabpanel">
               <!-- modal body for register starts -->
               <div class="modal-body">
                 <div class="form-group">
-
                   <i class="fa fa-envelope prefix"></i>
                   <input type="email" class="form-control form-control-sm validate" id="reg_txtemail"
-                    placeholder="Enter Email">
-                  <label data-error="Wrong" data-success="Right" for="reg_txtemail">Enter Email</label>
-
-                </div>
-
-                <div class="form-group">
-                  <i class="fa fa-lock prefix"></i>
-                  <input type="password" class="form-control" id="reg_txtpassword">
-                  <label data-error="Wrong" data-success="Right" for="reg_txtpassword">Enter password</label>
-
+                    placeholder="Enter email">
+                  <label data-error="Wrong" data-success="Right" for="reg_txtemail">Enter
+                    Email</label>
                 </div>
                 <div class="form-group">
                   <i class="fa fa-lock prefix"></i>
-                  <input type="password" class="form-control form-control-sm validate" id="reg_conpassword"
-                    placeholder="Re-Enter Password">
-                  <label data-error="Wrong" data-success="Right" for="reg_conpassword">Enter password</label>
+                  <input type="password" class="form-control 
+form-control-sm validate" id="reg_txtpassword" placeholder="Enter 
+Password">
+                  <label data-error="Wrong" data-success="Right" for="reg_txtpassword">Enter
+                    Password</label>
+                </div>
+                <div class="form-group">
+                  <i class="fa fa-lock prefix"></i>
+                  <input type="password" class="form-control 
+form-control-sm validate" id="reg_conpassword" placeholder="Re-Enter Password">
+                  <label data-error="Wrong" data-success="Right" for="reg_conpassword">Enter
+                    Password</label>
                 </div>
                 <div class="text-center mt-2">
-                  <button type="submit" class="btn btn-primary ml-1">Sign Up</button>
+                  <button type="submit" class="btn btn-primary 
+ml-1">SIGN UP</button>
                 </div>
-              </div>
-              <!-- modal body for register ends -->
-              <!-- modal footer starts -->
+              </div> <!-- modal body for register ends -->
+              <!-- modal-footer starts -->
               <div class="modal-footer">
-                <p>Already a member.&nbsp;&nbsp;<a href="#">Sign In</a></p><br>
-                <p><a href="#">Forgot Pssword</a></p>
+                <p>Already a member.&nbsp;&nbsp;<a href="#">Sign
+                    In</a></p><br>
                 <button type="button" class="btn btn-primary ml-auto" data-dismiss="modal">CLOSE</button>
-              </div>
-            </div>
-            <!-- modal footer ends -->
-            <!--tab-content for register tab ends-->
+              </div><!-- modal footer ends -->
+            </div><!-- tab content for register tab ends -->
           </div>
         </div>
-      </div>
-      <!-- cascading login/register ends -->
+      </div> <!-- cascading Login/register ends-->
     </div>
-
-
+    </div>
   </header>
   <div class="container-fluid">
     <div class="row">
       <!-- column 1 -->
       <div class="col-lg-4">
         <aside class="col-lg-12">
+          <!-- Sidebar-->
           <div class="offcanvas-body py-2 px-2">
-            <!-- categories -->
+            <!-- Categories-->
             <div class="mb-4 pb-4 border-bottom">
               <h3>Categories</h3>
-              <div class="accordion-mt-n1" id="shop-categories">
-                <!-- clothing -->
+              <div class="accordion mt-n1" id="shop-categories">
+                <!-- Clothing starts-->
                 <div class="accordion-item">
-                  <h3 class="accordion-header">
-                    <a class="accordion-button collapsed" href="#clothing" role="button" data-bs-toggle="collapse"
-                      aria-expanded="false" aria-controls="clothing">Clothing</a>
-                  </h3>
+                  <h3 class="accordion-header"><a class="accordion-button collapsed" href="#clothing" role="button"
+                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="clothing">Clothing</a></h3>
                   <div class="accordion-collapse collapse" id="clothing" data-bs-parent="#shop-categories">
                     <div class="accordion-body">
                       <ul>
-                        <li><a href="#">T-shirts</a></li>
-                        <li><a href="#">Casual shirts</a></li>
-                        <li><a href="#">Formal shirts</a></li>
-                        <li><a href="#">Blazers and jackets</a></li>
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Casual
+                            Shirts</a></li>
+                        <li><a href="#">Formal
+                            Shirts</a></li>
+                        <li><a href="#">Blazers and
+                            Jackets</a></li>
                         <li><a href="#">Trousers</a></li>
                       </ul>
                     </div>
                   </div>
-                </div> <!-- clothing ends -->
-
+                </div>
+                <!--clothing ends-->
                 <!-- Select by Brand starts-->
                 <div class="accordion-item">
                   <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_brand" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_brand">Select by brand</a></h3>
+                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_brand">Select by
+                      Brand</a></h3>
                   <div class="accordion-collapse collapse" id="men_brand" data-bs-parent="#shop-categories">
-
                     <div class="accordion-body">
                       <div class="form-check">
-                        <!--louis phillipe starts-->
+                        <!--louie phillippe starts-->
                         <input class="form-check-input" type="checkbox" value="" id="men_louie">
                         <label class="form-check-label" for="men_louie">
                           Louie Philippe
                         </label>
                       </div>
-                      <!--louis phillipe ends-->
-
+                      <!--louie phillippe ends-->
+                      <!--allen solly starts-->
                       <div class="form-check">
-                        <!--allen solly starts-->
                         <input class="form-check-input" type="checkbox" value="" id="men_allen">
                         <label class="form-check-label" for="men_allen">
                           Allen Solly
                         </label>
                       </div>
                       <!--allen solly ends-->
-
+                      <!-- peter england starts -->
                       <div class="form-check">
-                        <!--peter england starts-->
                         <input class="form-check-input" type="checkbox" value="" id="men_peter">
-                        <label class="form-check-label" for="men_pete">
+                        <label class="form-check-label" for="men_peter">
                           Peter England
                         </label>
                       </div>
-                      <!--peter england ends-->
-
+                      <!-- peter england ends -->
+                      <!-- blackberry starts -->
                       <div class="form-check">
-                        <!--blackberry starts-->
                         <input class="form-check-input" type="checkbox" value="" id="men_blackberry">
                         <label class="form-check-label" for="men_blackberry">
-                          Blackberry
+                          BlackBerry
                         </label>
                       </div>
-                      <!--blackberry ends-->
+                      <!-- blackberry ends -->
                     </div>
                   </div>
                 </div>
                 <!-- Select by Brand ends-->
-
-                <!-- select by size starts -->
+                <!-- Select by Size starts-->
                 <div class="accordion-item">
                   <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_size" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_size">Select by size</a></h3>
+                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_size">Select by
+                      Size</a></h3>
                   <div class="accordion-collapse collapse" id="men_size" data-bs-parent="#shop-categories">
-
                     <div class="accordion-body">
                       <!-- xs starts -->
                       <div class="form-check form-check-inline">
@@ -319,42 +309,21 @@
                         <label class="form-check-label" for="s">S</label>
                       </div>
                       <!-- small ends -->
-
                       <!-- medium starts -->
                       <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="mensizeRadio" id="m" value="m">
                         <label class="form-check-label" for="m">M</label>
                       </div>
                       <!-- medium ends -->
-
-                      <!-- large starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="l" value="l">
-                        <label class="form-check-label" for="l">L</label>
-                      </div>
-                      <!-- large ends -->
-
-                      <!-- extra large starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="xl" value="xl">
-                        <label class="form-check-label" for="xl">XL</label>
-                      </div>
-                      <!-- extra large ends -->
-
-                      <!-- double extra large starts -->
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="mensizeRadio" id="xxl" value="xxl">
-                        <label class="form-check-label" for="xxl">XXL</label>
-                      </div>
-                      <!--double extra large ends -->
                     </div>
                   </div>
                 </div>
-                <!-- select by size ends -->
+                <!-- Select by Size ends-->
                 <!-- Chose Price Range starts-->
                 <div class="accordion-item">
                   <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_price" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_price">Chose a Range</a></h3>
+                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_price">Chose a
+                      Range</a></h3>
                   <div class="accordion-collapse collapse" id="men_price" data-bs-parent="#shop-categories">
                     <div class="accordion-body">
                       <label for="priceRange" class="form-label">Select range</label>
@@ -363,194 +332,241 @@
                   </div>
                 </div>
                 <!-- Chose Price Range ends-->
-
-                <!-- Select by color -->
+                <!-- Select by color starts -->
                 <div class="accordion-item">
                   <h3 class="accordion-header"><a class="accordion-button collapsed" href="#men_color" role="button"
-                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_color">Pick a color</a></h3>
+                      data-bs-toggle="collapse" aria-expanded="false" aria-controls="men_color">Pick a
+                      Color</a></h3>
                   <div class="accordion-collapse collapse" id="men_color" data-bs-parent="#shop-categories">
                     <div class="accordion-body">
                       <div class="form-check">
-                        <!--green color starts-->
                         <input class="form-check-input" type="checkbox" value="" id="men_green">
                         <label class="form-check-label" for="men_green">
-                          Green
-                          <div style="height: 10px; width: 10px; background-color: green;"></div>
+                          <div style="height:10px;width:10px;background-color: green;"></div>
                         </label>
                       </div>
-                      <!--green color ends-->
-
-                      <div class="form-check">
-                        <!--green color starts-->
-                        <input class="form-check-input" type="checkbox" value="" id="men_red">
-                        <label class="form-check-label" for="men_red">
-                          Red
-                          <div style="height: 10px; width: 10px; background-color: red;"></div>
-                        </label>
-                      </div>
-                      <!--green color ends-->
-
                     </div>
                   </div>
                 </div>
+                <!-- Select by color ends -->
+              </div>
+            </div>
+          </div>
         </aside>
       </div>
+      <!-- column 2-->
       <div class="col-lg-8 d-flex flex-row flex-wrap">
         <div class="col-md-3 col-sm-6">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
-                <img src="" class="pic-1">
-                <img src="" class="pic-2">
+                <img class="pic-1" src="images/img1.jpg">
+                <!-- <a 
+  href='https://www.freepik.com/photos/business'>Business photo created by 
+  sergeycauselove - www.freepik.com</a> -->
+                <img class="pic-2" src="images/img2.jpg">
+                <!-- <a 
+  href='https://www.freepik.com/photos/business'>Business photo created by 
+  sergeycauselove - www.freepik.com</a> -->
               </a>
               <span class="product-trend-label">Trend</span>
-              <span class="product-discount-label">-20%</span>
               <ul class="social">
-                <li><a href="#" data-tip="Add to cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="#" data-tip="Wishlist"><i class="fa 
+  fa-heart"></i></a></li>
+                <li><a href="#" data-tip="Compare"><i class="fa 
+  fa-random"></i></a></li>
                 <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
               </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                <div class="price discount"><span>&#x20B9;1700</span>&#x20B9;1360</div>
-              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Men's Blazer</a></h3>
+              <div class="price">&#x20B9;2100</div>
             </div>
           </div>
         </div>
-
-
         <div class="col-md-3 col-sm-6">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
-                <img src="" class="pic-1">
-                <img src="" class="pic-2">
+                <img class="pic-1" src="images/img1.jpg">
+                <img class="pic-2" src="images/img2.jpg">
               </a>
               <span class="product-trend-label">Trend</span>
               <span class="product-discount-label">-20%</span>
               <ul class="social">
-                <li><a href="#" data-tip="Add to cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="#" data-tip="Wishlist"><i class="fa 
+  fa-heart"></i></a></li>
+                <li><a href="#" data-tip="Compare"><i class="fa 
+  fa-random"></i></a></li>
                 <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
               </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Blazer</a></h3>
-                <div class="price discount"><span>&#x20B9;1700</span>&#x20B9;1360</div>
-              </div>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Blazer</a></h3>
+              <div class="price 
+  discount"><span>&#x20B9;1000</span>&#x20B9;960</div>
             </div>
           </div>
         </div>
-
         <div class="col-md-3 col-sm-6">
           <div class="product-grid">
             <div class="product-image">
               <a href="#">
-                <img src="" class="pic-1">
-                <img src="" class="pic-2">
+                <img class="pic-1" src="images/img1.jpg">
+                <img class="pic-2" src="images/img2.jpg">
               </a>
               <span class="product-trend-label">Trend</span>
               <span class="product-discount-label">-20%</span>
               <ul class="social">
-                <li><a href="#" data-tip="Add to cart"><i class="fa fa-shopping-cart"></i></a></li>
-                <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
-                <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="#" data-tip="Wishlist"><i class="fa 
+  fa-heart"></i></a></li>
+                <li><a href="#" data-tip="Compare"><i class="fa 
+  fa-random"></i></a></li>
                 <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
               </ul>
-              <div class="product-content">
-                <h3 class="title"><a href="#">White linen shirt</a></h3>
-                <div class="price discount"><span>&#x20B9;1700</span>&#x20B9;1360</div>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">White Linen
+                  Shirt</a></h3>
+              <div class="price 
+  discount"><span>&#x20B9;1700</span>&#x20B9;1360</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+            <div class="product-image">
+              <a href="#">
+                <img class="pic-1" src="images/img1.jpg">
+                <img class="pic-2" src="images/img2.jpg">
+              </a>
+              <span class="product-trend-label">Trend</span>
+              <span class="product-discount-label">-20%</span>
+              <ul class="social">
+                <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="#" data-tip="Wishlist"><i class="fa 
+  fa-heart"></i></a></li>
+                <li><a href="#" data-tip="Compare"><i class="fa 
+  fa-random"></i></a></li>
+                <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+              </ul>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Grey Trouser</a></h3>
+              <div class="price 
+  discount"><span>&#x20B9;1100</span>&#x20B9;960</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--column2 ends-->
+    </div>
+    <!---row ends-->
+  </div>
+  <!--container- fluid ends-->
+  <!-- footer starts -->
+  <footer class="footer bg-dark pt-5">
+    <div class="container">
+      <div class="row pb-2">
+        <div class="col-md-4 col-sm-6">
+          <div class="pb-2 mb-4">
+            <h3 class="text-light">Shop departments</h3>
+            <ul class="footer_list">
+              <li class="list-item"><a class="list-link" href="#">T-Shirts</a></li>
+              <li class="list-item"><a class="list-link" href="#">Casual Shirts</a></li>
+              <li class="list-item"><a class="list-link" href="#">Formal Shirts</a></li>
+              <li class="list-item"><a class="list-link" href="#">Blazers&amp;Jackets </a></li>
+              <li class="list-item"><a class="list-link" href="#">Trousers</a></li>
+              <li class="list-item"><a class="list-link" href="#">Accessories</a></li>
+              <li class="list-item"><a class="list-link" href="#">Sunglasses</a></li>
+              <li class="list-item"><a class="list-link" href="#">Watches</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="links light pb-2 mb-4">
+            <h3 class="title text-light">Account &amp; shipping
+              info</h3>
+            <ul class="footer_list">
+              <li class="list-item"><a class="list-link" href="#">Your account</a></li>
+              <li class="list-item"><a class="list-link" href="#">Refunds &amp; replacements</a></li>
+              <li class="list-item"><a class="list-link" href="#">Order tracking</a></li>
+              <li class="list-item"><a class="list-link" href="#">Delivery info</a></li>
+            </ul>
+          </div>
+          <div class="links light pb-2 mb-4">
+            <h3 class="title text-light">About us</h3>
+            <ul class="footer_list">
+              <li class="list-item"><a class="list-link" href="#">About company</a></li>
+              <li class="list-item"><a class="list-link" href="#">Blog</a></li>
+              <li class="list-item"><a class="list-link" href="#">Become a seller</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="pb-2 mb-4">
+            <h3 class="title text-light pb-1">Stay informed</h3>
+            <form class="subscription-form validate" action="" method="post" target="_blank" novalidate="">
+              <div class="input-group flex-nowrap"><i
+                  class=" position-absolute top-50 translate-middle-y text-muted fs-base ms-3"></i>
+                <input class="form-control rounded-start" type="email" name="EMAIL" placeholder="Your email"
+                  required="">
+                <button class="btn btn-primary" type="submit" name="subscribe">Subscribe*</button>
               </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="txtname" tabindex="-1">
+              </div>
+              <div class="form-text text-light opacity-50">*Subscribe to our newsletter to receive early
+                discount offers, updates and new products
+                info.</div>
+              <div class="subscription-status"></div>
+            </form>
+          </div>
+          <div class="pb-2 mb-4">
+            <h3 class="text-light pb-1">Download our app</h3>
+            <div class="d-flex flex-wrap">
+              <div class="mr-2 mb-2"><a class="btn-market btn-apple" href="#" role="button"><span
+                    class="btn-market-subtitle">Download on
+                    the</span><span class="btn-market-title">App
+                    Store</span></a></div>
+              <div class="mb-2"><a class="btn-market btn-google" href="#" role="button"><span
+                    class="btn-market-subtitle">Download on
+                    the</span><span class="btn-market-title">Google
+                    Play</span></a></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-
-    <!-- footer starts -->
-    <footer class="footer bg-dark pt-5">
-      <div class="container">
-        <div class="row pb-2">
-          <div class="col-md-4 col-sm-6">
-            <div class="pb-2 mb-4">
-              <h3 class="text-light">Shop Departments</h3>
-              <ul class="footer_list">
-                <li class="list-item"><a href="#" class="list-link">T-Shirts</a></li>
-                <li class="list-item"><a href="#" class="list-link">Casual Shirts</a></li>
-                <li class="list-item"><a href="#" class="list-link">Formal-Shirts</a></li>
-                <li class="list-item"><a href="#" class="list-link">Blazers</a></li>
-                <li class="list-item"><a href="#" class="list-link">Trousers</a></li>
-                <li class="list-item"><a href="#" class="list-link">Accessories</a></li>
-                <li class="list-item"><a href="#" class="list-link">Sunglasses</a></li>
-                <li class="list-item"><a href="#" class="list-link">Watches</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="links light pb-2 mb-4">
-              <h3 class="title text-light">Account &amp; shipping info</h3>
-              <ul class="list">
-                <li class="list-item"><a href="#" class="list-link">Your Account</a></li>
-                <li class="list-item"><a href="#" class="list-link">Refunds</a></li>
-                <li class="list-item"><a href="#" class="list-link">Order Tracking</a></li>
-                <li class="list-item"><a href="#" class="list-link">Delivery info</a></li>
-                
-              </ul>
-            </div>
-            <div class="links light pb-2 mb-4">
-              <h3 class="title text-light">About us</h3>
-              <ul class="footer-list">
-                <li class="list-item"><a href="#" class="list-link">About Company</a></li>
-                <li class="list-item"><a href="#" class="list-link">Blog</a></li>
-                <li class="list-item"><a href="#" class="list-link">Become a seller</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pb-2 mb-4">
-              <h3 class="title text-light pb-1">Stay informed</h3>
-              <form action="" method="post" class="subscription-form validate" target="_blank" novalidate="">
-                <div class="input-group flex-nowrap"><i class="position-absolute top-50 translate-middle-y text-muted fs-base ms-3"></i>
-                  <input type="email" class="form-control rounded-start" name="EMAIL" placeholder="Your Email" required="">
-                  <button class="btn btn-primary" type="submit" name="subscribe">Subscribe</button>
-                </div>
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="txtname" tabindex="-1">
-                </div>
-                <div class="form-text text-light opacity-50">Subscribe to our newsletter to receive early discout offers, updatesand new products info</div>
-                <div class="subscription-status"></div>
-              </form>
-            </div>
-            <div class="pb-2 mb-4">
-              <h3 class="text-light pb-1">Download our app</h3>
-              <div class="d-flex flex-wrap">
-                <div class="mr-2 mb-2"><a href="#" class="btn-market btn-apple" role="button"><span class="btn-market-subtitle">Download on the go</span><span class="btn-market-title">App Store</span></a></div>
-                <div class="mb-2"><a href="#" class="btn-market btn-google" role="button"><span class="btn-market-subtitle">Download on the go</span><span class="btn-market-title">Google Play</span></a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
+    <!-- <div class="pt-5 bg-darker">
+  <div class="container">
+  <div class="row pb-3">
+  <div class="col-md-3 col-sm-6 mb-4">
+  <div class="d-flex"><i class="text-primary" style="font-size: 
+  2.25rem;"></i>
+  <div class="ps-3">
+  </div>
+  </div>
+  </div> -->
+    <!-- <div class="col-md-6 text-center text-md-end mb-4">
+  <div class="mb-3">
+  <a class="btn-social mr-2 mb-2" href="#"><i class=""></i></a>
+  <a class="btn-social mr-2 mb-2" href="#"><i class=""></i></a>
+  <a class="btn-social mr-2 mb-2" href="#"><i class=""></i></a>
+  <a class="btn-social mr-2 mb-2" href="#"><i class=""></i></a>
+  <a class="btn-social mr-2 mb-2" href="#"><i class=""></i></a>
+  </div>
+  </div>
+  </div> -->
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-
+  DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js
+  " integrity="sha384-
+  ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html
